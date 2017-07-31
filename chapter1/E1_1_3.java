@@ -15,6 +15,11 @@ public class E1_1_3 {
 		int a = scanner.nextInt();
 		int b = scanner.nextInt();
 		int c = scanner.nextInt();
-		System.out.println(exercise.equals(a, b, c));
+		if(exercise.equals(a, b, c))
+		{
+			System.out.println("equal");
+		}
+		else
+			System.out.println("not equal");
 	}
 }
